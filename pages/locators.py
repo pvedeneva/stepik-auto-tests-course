@@ -15,4 +15,5 @@ class ProductPageLocators():
     ALERT_PRODUCT_NAME = (By.CSS_SELECTOR, ".alertinner strong:first-child")
     PRODUCT_PRICE = (By.CSS_SELECTOR, "p.price_color")
     ALERT_CART_PRICE = (By.CSS_SELECTOR, ".alertinner p strong")
+    SUCCESS_MESSAGE = (By.CSS_SELECTOR, ".alertinner strong")
     # добавить тэг для мини конзины в шапке сайта
